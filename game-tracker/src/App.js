@@ -2,7 +2,17 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 
-const spelers = ['Elliot', 'Nox', 'Thomas', 'Ruben', 'Klaas'];
+const spelers = [
+  'nyo',
+  'nand',
+  'jori',
+  'bas',
+  'karel',
+  'kwinten',
+  'stef',
+  'yarne',
+  'younes',
+];
 
 const initialData = {
   townHall: 1,
